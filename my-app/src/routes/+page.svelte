@@ -2,15 +2,17 @@
 
 <script>
     
-    const successCallback = (position) => {
-  console.log(position);
-};
+    // const successCallback = (position) => {
+    // console.log(position);
+    // };  
 
-const errorCallback = (error) => {
-  console.log(error);
-};
+    // const errorCallback = (error) => {
+    // console.log(error);
+    // };
 
-navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+    // navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+
+    // console.log(latitude, longitude);
 
     const baseURL = "https://api.weather.gov/points/"
 
