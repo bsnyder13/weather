@@ -16,5 +16,13 @@
 
     const baseURL = "https://api.weather.gov/points/"
 
+    let forecast = async() => {
+        let res = await fetch(baseURL);
+        console.log(res)
+
+        let json = await res.json();
+        console.log(json)
+    }
+
 
 </script>
